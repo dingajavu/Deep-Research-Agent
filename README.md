@@ -1,16 +1,6 @@
----
-title: Research Companion
-emoji: 🔎
-colorFrom: green
-colorTo: gray
-sdk: gradio
-sdk_version: 6.31.0
-app_file: app.py
-pinned: false
-license: mit
----
-
 # Deep Research Agent
+
+**[Live demo](https://huggingface.co/spaces/dingajavu/deep-research-system)**: a replay of one recorded research run.
 
 A multi-agent deep research system built with the [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) and [Gradio](https://www.gradio.app/). Give it a topic answer and a team of agents with specualised functions scope the question with you, plans and runs the web searches in parallel, writes a detailed markdown report and emails the report to you.
 
@@ -43,7 +33,7 @@ EMAIL_SMTP_SERVER=smtp.example.com
 EMAIL_APP_PASSWORD=your-email-app-password
 ```
 
-The report is sent from and to `EMAIL_ADDRESS` over SMTP (port 587).
+The report is sent from and to `EMAIL_ADDRESS` over SMTP.
 
 ## Run
 

@@ -6,3 +6,5 @@ __pycache__/
 development_planning/
 .idea/
 freeze_demo.py
+export_static.py
+static_site/

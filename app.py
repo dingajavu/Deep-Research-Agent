@@ -15,7 +15,7 @@ DEMO_MODE = os.getenv("DEMO_MODE", "").strip().lower() in ("1", "true", "yes")
 
 if DEMO_MODE:
     DEMO = json.loads((Path(__file__).parent / "demo" / "demo.json").read_text(encoding="utf-8"))
-    DEMO_STEP_DELAY = 1.8  # seconds between replayed status updates
+    DEMO_STEP_DELAY = 2.5  # seconds between replayed status updates
 else:
     from research_manager import ResearchManager
 
