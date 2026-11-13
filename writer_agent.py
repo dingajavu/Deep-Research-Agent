@@ -1,9 +1,9 @@
 # Imports
 
 from agents import Agent, Runner
-from config import WRITER_INSTRUCTIONS, ReportData, MODEL_NAME, ResearchContext 
+from config import WRITER_INSTRUCTIONS, ReportData, WRITER_MODEL, ResearchContext
 
-writer_agent = Agent(name="Writer Agent", instructions=WRITER_INSTRUCTIONS, model=MODEL_NAME, output_type=ReportData)
+writer_agent = Agent(name="Writer Agent", instructions=WRITER_INSTRUCTIONS, model=WRITER_MODEL, output_type=ReportData)
 
 
 async def write_report(ctx: ResearchContext, search_results: list[str]) -> ReportData: 

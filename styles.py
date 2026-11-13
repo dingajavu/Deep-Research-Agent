@@ -64,6 +64,13 @@ HEADER_HTML = """
 </div>
 """
 
+DEMO_BANNER_HTML = """
+<div class="dr-demo-banner">
+    <strong>Recorded demo.</strong> This replays one real research run, so the question is fixed and
+    no live searches are made. Click <em>Investigate</em> to walk through it.
+</div>
+"""
+
 CSS = """
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
 
@@ -143,6 +150,17 @@ body { background: var(--dr-bg, #f4f6f8); }
     text-transform: uppercase;
     margin: 0.55rem 0 0;
     color: var(--dr-muted);
+}
+
+/* === DEMO BANNER === */
+.dr-demo-banner {
+    background: var(--dr-surface);
+    border: 1.5px solid var(--dr-line-soft);
+    border-left: 4px solid var(--dr-amber);
+    padding: 0.8rem 1.1rem;
+    margin: -1.25rem 0 1.5rem;
+    font-size: 0.92rem;
+    color: var(--dr-text);
 }
 
 /* === QUERY ROW === */

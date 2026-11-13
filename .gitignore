@@ -4,3 +4,5 @@ exploration/
 __pycache__/
 .env
 development_planning/
+.idea/
+freeze_demo.py

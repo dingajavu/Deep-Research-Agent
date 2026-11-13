@@ -1,7 +1,8 @@
 from pydantic import BaseModel, Field
 
-MODEL_NAME = "gpt-6-luna"
-HOW_MANY_SEARCHES = 5
+MODEL_NAME = "gpt-6-luna"     
+WRITER_MODEL = "gpt-6-luna"    
+HOW_MANY_SEARCHES = 5          
 NUM_CLARIFIER_QUESTIONS = 3  
 
 RESEARCH_TASK = "The best sports data analytics practices in 2026"
