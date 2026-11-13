@@ -1,0 +1,6 @@
+exploration/
+.vscode/
+.venv/
+__pycache__/
+.env
+development_planning/
